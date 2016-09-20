@@ -16,9 +16,7 @@ zuul:
   ignoredPatterns: /**/api/**
   routes:
     helloworld-service: /hello/**
-    stripPrefix: false
     discovery-service: /eureka/**
-    stripPrefix: false
 
 ribbon:
   ConnectTimeout: 3000
