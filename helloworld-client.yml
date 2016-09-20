@@ -17,6 +17,7 @@ zuul:
   routes:
     helloworld-service: /hello/**
     discovery-service: /eureka/**
+    stripPrefix: false
 
 ribbon:
   ConnectTimeout: 3000
