@@ -1,2 +1,4 @@
-server.port=${PORT:9988}
+server:
+  port: ${PORT:9988}
+
 message: "hello world!!" 
